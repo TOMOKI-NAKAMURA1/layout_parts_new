@@ -3,22 +3,22 @@
 /* 回答はここに書いてね */
 
 .q2__content {
-  width: 940px;
+  width: 900px;
   background-color: #eff3f4;
   margin: 0 auto;
   padding: 20px;
-}
-
-.picture-left {
-  margin-right: 20px;
-  margin-bottom: 10px;
-  float: left;
 }
 
 .q2__content__main-text {
   font-size: 18px;
   line-height: 22px;
   word-break: break-all;
+}
+
+.picture-left {
+  margin-right: 20px;
+  margin-bottom: 10px;
+  float: left;
 }
 
 .picture-right {

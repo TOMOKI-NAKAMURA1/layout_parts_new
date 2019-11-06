@@ -11,15 +11,7 @@
   background-color: #ecf1f2;
 }
 
-.box8,
-.box5,
-.box1,
-.box7,
-.box4,
-.box6,
-.box2,
-.box3,
-.box9 {
+.box-common {
   position: absolute;
   height: 100px;
   width: 100px;
@@ -94,8 +86,9 @@
 }
 
 .box9 {
+  position: fixed;
+  top: 10px;
+  left: 10px;
   background-color: #2b69a3;
-  top: -170px;
-  left: -50px;
 }
 /* 回答はここに書いてね */

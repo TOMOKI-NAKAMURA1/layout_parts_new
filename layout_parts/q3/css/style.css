@@ -2,37 +2,29 @@
 
 /* 回答はここに書いてね */
 .q3__table {
+  table-layout: fixed;
   margin: 0 auto;
+  width: 100%;
 }
 
-.q3__table,
-td,
-th {
+.q3__table th,
+.q3__table td {
   border: solid #dedede 1px;
   text-align: center;
   padding: 10px;
 }
 
 .q3__table th {
-  background-color: #2244aa;
   color: white;
   font-size: 18px;
-}
-
-.q3__table td:first-child {
-  color: white;
   background-color: #2244aa;
-}
-
-.q3__table td :not(:first-child) {
-  background-color: #ecf1f2;
 }
 
 .q3__table tr:nth-child(odd) {
   background-color: #ecf1f2;
 }
 
-.ex_border {
-  border-bottom: dashed #000 2px;
+.q3__table tr:last-child {
+  border-top: dashed #000 2px;
 }
 /* 回答はここに書いてね */

@@ -6,14 +6,10 @@
   display: table;
   width: 100%;
   padding: 20px;
+  margin: 0 auto;
 }
 
-.box-left-1,
-.box-center-1,
-.box-right-1,
-.box-right-1,
-.box-center-2,
-.box-right-2 {
+.Common {
   display: table-cell;
   padding: 20px;
   text-align: center;

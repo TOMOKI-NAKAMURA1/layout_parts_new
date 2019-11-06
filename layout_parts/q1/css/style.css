@@ -2,6 +2,12 @@
 
 /* 回答はここに書いてね */
 
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
 .q1__content {
   /* [1] 下の行のwidthのコメントアウトを外す => 画面いっぱいだったテキストの範囲が900pxになっています。デベロッパーツールで確認してみましょう。 [2]は29行目。*/
   width: 900px;

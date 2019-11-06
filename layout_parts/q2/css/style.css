@@ -5,30 +5,23 @@
 .q2__content {
   width: 940px;
   background-color: #eff3f4;
-  word-wrap: break-all;
   margin: 0 auto;
   padding: 20px;
 }
 
-.q2__content__box-top img {
+.picture-left {
   margin-right: 20px;
   margin-bottom: 10px;
   float: left;
 }
 
-.q2__content__text-top {
+.q2__content__main-text {
   font-size: 18px;
   line-height: 22px;
-  text-align: justify;
+  word-break: break-all;
 }
 
-.q2__content__text-bottom {
-  font-size: 18px;
-  line-height: 22px;
-  text-align: justify;
-}
-
-.q2__content__box-bottom img {
+.picture-right {
   margin-left: 20px;
   margin-bottom: 10px;
   float: right;

@@ -4,12 +4,25 @@
 
 /*Q6-1*/
 
-.q6_box_parent p {
+.box_first div {
+  text-align: center;
+}
+
+.box_first p {
+  display: inline-block;
+  width: 90px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #e6f2ff;
+}
+
+.box_second p {
+  /* display: inline-block; */
+  text-align: center;
+  margin: 0 auto;
   width: 90px;
   padding: 10px;
   background-color: #e6f2ff;
-  margin: 0 auto;
-  text-align: center;
 }
 
 /*Q6-2*/
@@ -18,13 +31,13 @@
   display: table;
 }
 
-.q6-2-inner {
+.q6-inner_first {
   text-align: center;
   display: table-cell;
   vertical-align: middle;
 }
 
-.q6-2-inner p {
+.q6-inner_first p {
   display: inline-block;
   padding: 10px;
   background-color: #fff;
@@ -42,11 +55,11 @@
   text-align: center;
 }
 
-.q6-position-box-1 {
+.q6-position-box {
   position: relative;
 }
 
-.q6-position-content-1 {
+.q6-position-content {
   position: absolute;
   top: 0;
   right: 0;
@@ -60,10 +73,8 @@
   width: 100%;
 }
 
-.q6-inner-2 {
+.q6-inner-second {
   position: absolute;
-  padding: 10px;
-  background-color: #e6f2ff;
   top: 50%;
   left: 50%;
   -webkit-transform: translateY(-50%) translateX(-50%);

@@ -9,45 +9,50 @@
   display: block;
 }
 
-.q7__box_left {
+.text-common {
   width: 205px;
   font-size: 16px;
-  float: left;
   background-color: #fff;
-  padding:10px;
+  padding: 10px;
+}
+
+.q7__box_left {
+  float: left;
   margin-right: 50px;
 }
 
 .q7__box_right {
-  width: 205px;
-  font-size: 16px;
   float: right;
-  background-color: #fff;
-  padding:10px;
 }
-
 
 /*Q7-2*/
 
-.q7__box_parent {
+.box-parent {
   display: table;
 }
 
-.q7__box__left {
+.q7__box {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.q7__box-left {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.q7__box__text_left {
+  margin-right: 50px;
+  padding: 10px;
+  width: 205px;
+  background-color: #fff;
+}
+
+.q7__box-right {
   display: table-cell;
   vertical-align: middle;
   background-color: #fff;
-  padding:10px;
-  width: 205px;
-  margin-right: 50px;
   font-size: 16px;
-}
-
-
-.q7__box__right {
-  display: table-cell;
-  font-size: 16px;
-  
 }
 
 .q7__box__text_right {
@@ -58,33 +63,34 @@
 
 /*Q7-3*/
 
-.q7__box_left_3 {
-  display: inline-block;
-  vertical-align: middle;
-  background-color: #fff;
+.box-parent-3 {
+  font-size: 0;
+}
+
+.q7__box {
   width: 205px;
-  padding:10px;
+  font-size: 16px;
+}
+
+.box-left-3 {
+  display: inline-block;
+  background-color: #fff;
   margin-right: 50px;
 }
 
-.q7__box_left_text_3 {
-  font-size: 16px;
-}
-
-.q7__box_right_3 {
+.box-right-3 {
   display: inline-block;
-  vertical-align: middle;
   background-color: #fff;
-  width:205px;
-  padding:10px;
 }
-
-.q7__box_right_text_3 {
-  font-size: 16px;
-}
-
 
 /*Q7-4*/
+
+.box-common {
+  background-color: #fff;
+  padding: 10px;
+  width: 205px;
+  font-size: 16px;
+}
 
 .q7__box_parent_4 {
   display: flex;
@@ -92,45 +98,31 @@
   justify-content: space-around;
 }
 
-.q7__box_left_4 {
-  background-color: #fff;
-  padding: 10px;
-  width: 205px;
-  font-size: 16px;
-}
-
-.q7__box_right_4 {
-  background-color: #fff;
-  padding: 10px;
-  width: 205px;
-  font-size: 16px;
-}
-
 /*Q7-5*/
 
-.q7__box_left_5 {
-  float: left;
-  background-color: #fff;
-  width: 280px;
-  font-size: 16px;
-  margin-right: 50px;
+.box-parent-5 {
+  font-size: 0;
 }
 
-.q7__box__text_left_5 {
+.common__text {
   padding: 10px;
+  font-size: 16px;
+  background-color: #fff;
+}
+
+.q7__box_left_5 {
+  display: inline-block;
+  width: 300px;
+  font-size: 16px;
+  vertical-align: top;
 }
 
 .q7__box_right_5 {
+  display: inline-block;
+  margin-left: -300px;
+  padding-left: 350px;
+  box-sizing: border-box;
   width: 100%;
-  margin-left: -200px;
-  font-size: 16px;
-  float: left;
-  background-color: #fff;
-}
-
-.q7__box__text_right_5 {
-  margin-left: 200px;
-  padding: 10px;
 }
 
 /* 回答はここに書いてね */

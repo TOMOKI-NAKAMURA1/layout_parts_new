@@ -1,5 +1,70 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.q9_picture {
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+  cursor: pointer;
+  width: 500px;
+  height: 333px;
+}
+
+.car_picture {
+  transition: all 0.5s;
+}
+
+.q9_text-parent {
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8));
+  transition: all 0.5s;
+}
+
+.q9_picture:hover .q9_text-parent {
+  bottom: 0;
+}
+
+.q9_picture:hover .car_picture {
+  transform: scale(1.5);
+  transition: all 0.5s;
+}
+
+.q9_text_area {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  font-size: 16px;
+  padding: 20px;
+  color: #fff;
+  box-sizing: border-box;
+  word-break: break-all;
+}
+
+.q9_circle {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  border: 10px solid #ecf1f2;
+  border-top-color: #00bcd4;
+  border-radius: 50%;
+}
+
+.circle1 {
+  animation: circle1 1s linear infinite;
+}
+
+@keyframes circle1 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 
 /* 回答はここに書いてね */

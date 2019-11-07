@@ -16,7 +16,7 @@
 
 .q9_text-parent {
   position: absolute;
-  bottom: -100%;
+  top: 100%;
   left: 0;
   width: 100%;
   height: 100%;
@@ -25,7 +25,7 @@
 }
 
 .q9_picture:hover .q9_text-parent {
-  bottom: 0;
+  top: 0;
 }
 
 .q9_picture:hover .car_picture {

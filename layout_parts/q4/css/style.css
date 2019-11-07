@@ -2,14 +2,23 @@
 
 /* 回答はここに書いてね */
 
-.total-box {
-  display: table;
-  width: 100%;
+.q4_gray-box {
   padding: 20px;
+  box-sizing: border-box;
+}
+
+.total-box:first-child {
   margin: 0 auto;
 }
 
-.Common {
+.total-box {
+  display: table;
+  margin-top: 20px;
+  width: 100%;
+  background-color: #ecf1f2;
+}
+
+.common {
   display: table-cell;
   padding: 20px;
   text-align: center;

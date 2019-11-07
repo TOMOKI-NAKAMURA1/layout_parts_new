@@ -3,7 +3,6 @@
 /* 回答はここに書いてね */
 .q3__table {
   table-layout: fixed;
-  margin: 0 auto;
   width: 100%;
 }
 
@@ -12,6 +11,7 @@
   border: solid #dedede 1px;
   text-align: center;
   padding: 10px;
+  line-height: 26px;
 }
 
 .q3__table th {
@@ -20,11 +20,12 @@
   background-color: #2244aa;
 }
 
-.q3__table tr:nth-child(odd) {
+.q3__table tr:nth-child(even) {
   background-color: #ecf1f2;
 }
 
-.q3__table tr:last-child {
+.q3__table tbody tr:last-child {
   border-top: dashed #000 2px;
 }
+
 /* 回答はここに書いてね */
